@@ -4,3 +4,11 @@ function nahodnyLetopocet(argPrvniCislo, argDreheCislo) {
 
     return vysledek;
 }
+
+let odpovedUzivatele = +(prompt("Kolik nahodnych letopoctu se mam vypsat do konzole?"));
+let counter = 0;
+while(counter < odpovedUzivatele) {
+    console.log(nahodnyLetopocet(1992, 2050));
+
+    counter++;
+}
